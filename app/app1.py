@@ -8,9 +8,9 @@ st.set_page_config(page_title="Churn Predictor", page_icon="🏦", layout="wide"
 # 2. Load Artifacts efficiently
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load(r'C:\Users\Ashmit\OneDrive\Desktop\Bank_Churn_project\notebooks\churn_model.pkl')
-    scaler = joblib.load(r'C:\Users\Ashmit\OneDrive\Desktop\Bank_Churn_project\notebooks\scaler.pkl')
-    model_columns = joblib.load(r'C:\Users\Ashmit\OneDrive\Desktop\Bank_Churn_project\notebooks\model_columns.pkl')
+    model = joblib.load("models/churn_model.pkl")
+    scaler =joblib.load("models/scaler.pkl")
+    model_columns = joblib.load("models/model_columns.pkl")
     return model, scaler, model_columns
 
 model, scaler, model_columns = load_artifacts()
