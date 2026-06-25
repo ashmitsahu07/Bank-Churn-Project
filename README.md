@@ -115,7 +115,7 @@ Bank_Churn_Project
 
 Clone the repository:
 
-git clone https://github.com/your-username/Bank_Churn_Project.git
+git clone https://github.com/ashmitsahu07/Bank-Churn-Project.git
 
 Move into the project directory:
 
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 Run the Streamlit application:
 
-streamlit run app/app.py
+streamlit run app/app1.py
 📊 Model Output
 
 The application provides:
